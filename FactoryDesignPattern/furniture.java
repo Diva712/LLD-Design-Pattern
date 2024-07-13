@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 interface FurnitureItem {
   void display();
 }
@@ -22,7 +24,7 @@ class Table implements FurnitureItem {
 }
 
 class FurnitureFactory {
-  FurnitureItem getFurniture(String furnitureString) {
+  public static FurnitureItem getFurniture(String furnitureString) {
 
     if (furnitureString.trim().equalsIgnoreCase("table")) {
       return new Table();
@@ -40,17 +42,11 @@ class FurnitureFactory {
 class furniture {
 
   public static void main(String[] args) {
-    try {
-      FurnitureFactory furniturefactory = new FurnitureFactory();
-      FurnitureItem furniture1 = furniturefactory.getFurniture("chair");
-      FurnitureItem furniture2 = furniturefactory.getFurniture("table");
-      FurnitureItem furniture3 = furniturefactory.getFurniture("sofa");
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter furniture name like sofa , table , chair : ");
+    String furniturString = scanner.nextLine();
+    FurnitureItem furnitureItem = FurnitureFactory.getFurniture(furniturString);
+    furnitureItem.display();
 
-      furniture1.display();
-      furniture2.display();
-      furniture3.display();
-    } catch (Exception e) {
-      System.out.println(e);
-    }
   }
 }
