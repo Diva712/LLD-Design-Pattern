@@ -44,9 +44,15 @@ class furniture {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter furniture name like sofa , table , chair : ");
-    String furniturString = scanner.nextLine();
-    FurnitureItem furnitureItem = FurnitureFactory.getFurniture(furniturString);
-    furnitureItem.display();
+    try {
+      String furniturString = scanner.nextLine();
+      FurnitureItem furnitureItem = FurnitureFactory.getFurniture(furniturString);
+      furnitureItem.display();
+    } catch (Exception e) {
+      System.err.println(e);
+    } finally {
+      scanner.close();
+    }
 
   }
 }
