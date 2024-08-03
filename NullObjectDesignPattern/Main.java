@@ -1,3 +1,4 @@
+package NullObjectDesignPattern;
 
 interface Vehicle {
   int getSittingCapicity();
