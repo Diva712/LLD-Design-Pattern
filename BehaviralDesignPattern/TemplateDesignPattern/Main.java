@@ -1,4 +1,4 @@
-package TemplateDesignPattern;
+package BehaviralDesignPattern.TemplateDesignPattern;
 
 abstract class Payment {
   public abstract void validateRequest();

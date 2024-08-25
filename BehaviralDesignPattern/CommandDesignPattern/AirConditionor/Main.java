@@ -1,4 +1,4 @@
-package CommandDesignPattern.AirConditionor;
+package BehaviralDesignPattern.CommandDesignPattern.AirConditionor;
 
 import java.util.*;
 

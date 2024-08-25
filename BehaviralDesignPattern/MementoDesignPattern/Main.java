@@ -1,4 +1,4 @@
-package MementoDesignPattern;
+package BehaviralDesignPattern.MementoDesignPattern;
 
 import java.util.*;
 

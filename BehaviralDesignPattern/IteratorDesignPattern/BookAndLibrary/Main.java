@@ -1,4 +1,4 @@
-package IteratorDesignPattern.BookAndLibrary;
+package BehaviralDesignPattern.IteratorDesignPattern.BookAndLibrary;
 
 import java.util.*;
 

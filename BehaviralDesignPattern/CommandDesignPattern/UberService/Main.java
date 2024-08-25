@@ -1,3 +1,5 @@
+package BehaviralDesignPattern.CommandDesignPattern.UberService;
+
 class RidService {
   public void requestRide(String passenger, String srcLoc, String destLoc) {
     System.out.println("Requesting a ride for passenger: " + passenger +

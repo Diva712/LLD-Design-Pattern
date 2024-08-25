@@ -1,4 +1,4 @@
-package NullObjectDesignPattern;
+package BehaviralDesignPattern.NullObjectDesignPattern;
 
 interface Vehicle {
   int getSittingCapicity();

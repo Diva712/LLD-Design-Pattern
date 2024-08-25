@@ -1,4 +1,4 @@
-package InterpreterDesignPattern;
+package BehaviralDesignPattern.InterpreterDesignPattern;
 
 import java.util.HashMap;
 import java.util.Map;

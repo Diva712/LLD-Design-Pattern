@@ -1,3 +1,4 @@
+package StructuralDesignPattern.AdapterDesignPattern.WeightAdapterExample;
 
 interface WeightMachine {
 
