@@ -1,3 +1,5 @@
+package StructuralDesignPattern.FlyWeightDesignPattern.WordEditorExample;
+
 import java.util.HashMap;
 import java.util.Map;
 
